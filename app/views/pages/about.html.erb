@@ -1,2 +1,16 @@
-<h1>About Page</h1>
-<p><%= link_to 'Home', root_path %></p>
+<div class="jumbotron about-jumbotron">
+  <h1 class="display-4">About Alpha Blog</h1>
+  <hr class="my-4">
+  <p class="lead">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur maiores soluta alias perspiciatis debitis ipsum eaque repellat labore nulla nihil esse optio, veniam, vitae laboriosam voluptatibus quidem facilis. Expedita, officia.
+    </p>
+    <p class="lead">
+      Thank you joining our blog.
+    </p>
+  <hr class="my-4">
+
+  <small>
+    <p>Get started on your first blog post.</p>
+  </small>
+  <%= link_to 'Start Blogging', new_article_path, class: "btn btn-primary" %>
+</div>

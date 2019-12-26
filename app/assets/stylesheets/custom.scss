@@ -1,0 +1,154 @@
+@import "bootstrap";
+
+.bg-primary {
+    background-color: dodgerblue !important;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: dodgerblue;
+}
+
+#logo {
+  color: white;
+  float: left;
+  font-size: 1.7rem;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+
+#logo:hover {
+  color: #e6f5ff;
+  text-decoration: none;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.jumbotron-image {
+  margin-top: 32px;
+  background-image: asset-url("");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.btn-xlarge {
+  font-size: 1.7rem;
+  background-color: dodgerblue;
+  position: relative;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  position: relative;
+  bottom: 5px;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.footer ul li {
+  float: right;
+  margin-left: 15px;
+}
+
+
+
+#cancel {
+  margin-left: 175px;
+}
+
+#cancel a:hover {
+  text-decoration: none;
+}
+
+
+#new-heading {
+  margin: 40px auto 40px auto;
+}
+
+.page-heading {
+  margin:30px;
+}
+
+.alert {
+  margin-top: 16px;
+}
+
+.list-article-links {
+  margin: 5px;
+}
+
+.article-rant {
+  margin-top: 8px;
+}
+
+.rant-actions {
+  margin: 20px 5px 15px 0;
+}
+
+.about-jumbotron {
+  margin-top: 32px;
+}
+
+.about-jumbotron h1 {
+  color: dodgerblue;
+}
+
+
+.background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
+  background-size: cover;
+}
+
+
+
+.main-container {
+ min-height: 80vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+.showpage-container {
+  min-height: 66vh;
+}
+
+.createpage-container {
+  min-height: 63vh;
+}
